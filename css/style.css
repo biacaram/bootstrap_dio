@@ -11,13 +11,21 @@ body {
 }
 
 .quem-somos {
-    background-color: rgb(255, 154, 72);
+    background-color: rgba(255, 154, 72, 0.911);
 }
 
 .parceiros {
-    background-color: purple;
+    background-color: rgba(128, 0, 128, 0.644);
+}
+
+.servicos {
+    background-color: rgba(96, 190, 244, 0.856);
 }
 
 section img {
     margin: 30px;
+}
+
+section p {
+    margin-top: 30px;
 }

@@ -1,54 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Minha Página com Bootstrap</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#" style="margin-left: 20px;">
-                <img src="img/dio_logo.jpeg" class="rounded-circle" alt="logo azul" width="80" height="80">
-            </a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#quemsomos">Quem Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#parceiros">Parceiros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Serviços</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <section id="quemsomos">
-            <div class="container-fluid quem-somos text-center margin">
-                <h3>Quem somos</h3>
-                <img src="img/pexels-burst-374631.jpg" alt="mesa de trabalho com notebook, café e planta" width="400">
-                <h4>Somos um time comprometido com os resultados</h4>
-            </div>
-        </section>
-        <section id="parceiros">
-            <div class="container-fluid parceiros text-center margin">
-                <h3>Parceiros</h3>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <img src="img/dio_logo2.jpeg" class="rounded-circle" alt="logo larenja" width="60%">
-                        </div>
-                        <div class="col-lg-4">
-                            <img src="img/dio_logo2.jpeg" class="rounded-circle" alt="logo larenja" width="60%">
-                        </div>
-                        <div class="col-lg-4">
-                            <img src="img/dio_logo2.jpeg" class="rounded-circle" alt="logo larenja" width="60%">
-                        </div>
+
+<head>
+    <title>Minha Página com Bootstrap</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#" style="margin-left: 20px;">
+            <img src="img/dio_logo.jpeg" class="rounded-circle" alt="logo azul" width="80" height="80">
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#quemsomos">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="quemsomos">
+        <div class="container-fluid quem-somos text-center margin">
+            <h3>Quem somos</h3>
+            <img src="img/pexels-burst-374631.jpg" alt="mesa de trabalho com notebook, café e planta" width="400">
+            <h4>Somos um time comprometido com os resultados</h4>
+        </div>
+    </section>
+    <section id="parceiros">
+        <div class="container-fluid parceiros text-center margin">
+            <h3>Parceiros</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="img/dio_logo2.jpeg" class="rounded-circle" alt="logo larenja" width="60%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/dio_logo2.jpeg" class="rounded-circle" alt="logo larenja" width="60%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/dio_logo2.jpeg" class="rounded-circle" alt="logo larenja" width="60%">
                     </div>
                 </div>
             </div>
-        </section>
-    </body>
+        </div>
+    </section>
+    <section id="servicos">
+        <div class="container-fluid servicos text-center margin">
+            <h3>Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Demonstrar que a disposição dos elementos HTML corrigiu o bug na definição de
+                            variaveis com tipos estáticos. A equipe de suporte precisa saber que o deploy automatizado
+                            no Heroku corrigiu o bug de uma configuração Webpack eficiente nos builds.</p>
+                        <img src="img/pexels-burst-373883.jpg" alt="" width="90%">
+                    </div>
+                    <div class="col-lg-6">
+                        <p>Explicar pro Product Onwer que o gerenciador de dependências do frontend complexificou o
+                            merge da execução de requisições effcientes na API. Falar pro cliente que o último pull
+                            request desse SCRUM causou a race condition do polimorfismo aplicado nas classes.</p>
+                        <img src="img/pexels-negative-space-160107.jpg" alt="" width="90%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>
