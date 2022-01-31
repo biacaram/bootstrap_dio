@@ -1,5 +1,6 @@
 body {
-
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(26, 26, 26, 0.904);
 }
 
 .navbar {
@@ -28,4 +29,9 @@ section img {
 
 section p {
     margin-top: 30px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: rgba(202, 255, 78, 0.699);
 }
